@@ -1,4 +1,4 @@
-import { IndexType, Permission} from 'node-appwrite'
+import { Permission} from 'node-appwrite'
 
 import { databases } from './config'
 import {db,questionsCollection} from '@/models/name'
