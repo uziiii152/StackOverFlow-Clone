@@ -8,7 +8,7 @@ import { getOrCreateStorage } from "./storage.collection";
 
 
 
-export async function getOrCreateCollections(){
+export async function getOrCreateDb(){
     try {
         await databases.get(db)
         console.log('database connected');

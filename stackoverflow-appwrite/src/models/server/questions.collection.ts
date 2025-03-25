@@ -26,11 +26,11 @@ export async function createCollectionQuestion(){
     console.log('Question Collection attributes created');
 
     //create indexes
-   /*
-    await Promise.all([
-        databases.createIndex(db,questionsCollection,'title',IndexType.Fulltext,["title"],['asc']),
-        databases.createIndex(db,questionsCollection,'content',IndexType.Fulltext,["content"],['asc']),
+//    
+    // await Promise.all([
+    //     databases.createIndex(db,questionsCollection,'title',IndexType.Fulltext,["title"],['asc']),
+    //     databases.createIndex(db,questionsCollection,'content',IndexType.Fulltext,["content"],['asc']),
 
-    ])
-        */
+    // ])
+        
 }
